@@ -1,0 +1,177 @@
+body{
+  font-family: Sans-Serif;
+  background-color: ;
+}
+/* nabbar */
+.nav-color{
+  background-color:white ;
+}
+
+.navbar-color{
+  background-color: #3f90f82e;
+}
+
+
+/* header */
+.padding-header{
+  padding-top: 3%;
+  padding-bottom: 15%;
+}
+.text-1{
+  font-size: 5.7vw;
+}
+.margin1{
+  
+}
+span{
+  color: #7550bddc;
+}
+.qut{
+  color: #6496dedc;
+}
+.size{
+  font-size: 18px;
+}
+
+/* about-section */
+.about-section{
+  padding: 20% 0%;
+}
+
+.my-btn{
+  background-color:#6496dedc ;
+  color: white;
+}
+.my-btn:hover{
+  background-color: ;
+  box-shadow: 1px 1px 10px #7550bd85;
+  background-color: white;
+  transition: 1s;
+}
+
+/* skill-section */
+.style-skills{
+  background-color: #0078ff0e;
+  padding-bottom: 25%;
+}
+
+.card-hover:hover{
+  box-shadow: 1px 1px 10px #8ba2ca7a;
+  transition: 1s;
+  border: none;
+}
+
+.imgbox{
+  background: linear-gradient(#7550bdb8,#6496dedc);
+  border-radius: 5px;
+}
+
+.imgbox img:hover{
+  opacity: 0.4;
+  transition: 1s;
+}
+
+.skill-section{
+  padding-top: 20%;
+}
+
+.bar1-color{
+  background-color: #e7522ff6;
+}
+.bar2-color{
+  background-color: #7318bcf6;
+}
+.bar3-color{
+  background-color: #1a44c1f6;
+}
+
+
+/* project-section */
+.project-section{
+  padding: 30% 0%;
+}
+
+.card2-hover:hover{
+  box-shadow: 1px 1px 10px #8ba2ca7a;
+  background-color: #acccf239;
+  border: none;
+  transition: 1s;
+}
+
+
+/* contuct-section */
+.form-section{
+  padding: 20% 0%;
+  padding-bottom: 35%;
+}
+
+.col-for-message{
+  width: 100%;
+  outline: none;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding-left:3%;
+}
+
+.col-for-message:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0; 
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+/* footer */
+footer{
+  background-color:#1f1f1ff6;
+  color: white;
+}
+footer a{
+  margin: 0 3%;
+  background-color: none;
+  font-size: 5.5vw;
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  color: #414141f6;
+  transition: 2s;
+}
+
+footer p{
+  font-size: 4vw;
+  text-align: center;
+}
+
+/* customization for mobile */
+@media(max-width:768px){
+  .text-1{
+  font-size: 8.7vw;
+  margin-top: 5%;
+  }
+  .padding-header{
+    padding-bottom: 60%;
+  }
+  .about-section{
+    padding-bottom: 80%;
+  }
+  .style-skills{
+    padding-bottom: 80%;
+    padding-top: 20%;
+  }
+  .skill-section{
+    width: 85%;
+  }
+  
+  .project-section{
+    padding-bottom: 100%;
+    padding-top: 20%;
+  }
+  .for-padding{
+    width: 85%;
+  }
+  .form-section{
+    padding-bottom: 50%;
+    padding-top: 50%;
+  }
+}

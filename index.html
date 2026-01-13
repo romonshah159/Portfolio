@@ -201,39 +201,31 @@
     <section class="form-section"data-bs-spy="scroll" data-bs-target="#example">
       <div class="container" >
         <p id="contact"contuct class="text-center h2">Contact Me</p>
-        <div>
-          <hr class="col-5 mx-auto mb-5">
-        </div>
         <form action="https://getform.io/f/bjjddxrb" method="POST" class="needs-validation" novalidate>
-          <div class="row">
-            <div class="col-md-8 mx-auto">
+        <div class="row">
+           <div class="col-md-8 mx-auto">
               <div class="form-floating">
-                <input class="form-control"type="text" id="for-text" placeholder="name" required>
+                <input class="form-control" type="text" id="for-text" placeholder="name" name="name" required>
                 <label for="for-text">Your Name</label>
-                <div class="valid-feedback">
-                  <small>Looks good</small>
-                </div>
-                <div class="invalid-feedback">
-                  <small>Please enter your Name</small>
-                </div>
               </div>
-            </div>
-            <div class="col-md-8 mx-auto mt-4">
-              <div class="form-floating">
-                <input class="form-control" type="email" id="for-email" placeholder="name" name="email" required>
-                <label for="for-email">Your E-mail</label>
-                <div class="valid-feedback">
-                  <small>Looks good</small>
-                </div>
-                <div class="invalid-feedback">
-                  <small>Please enter a valid email</small>
-                </div>
-              </div>
-              <div class="coll-md-12 mt-4">
-                <textarea name="message" id="" class="col-for-message" rows="5" placeholder="Your Message</textarea>
-              </div>
-              <div class="mt-4">
-                <input class="l btn my-btn col-12" type="submit" value="Send Message">
+               </div>
+        
+                <div class="col-md-8 mx-auto mt-4">
+                  <div class="form-floating">
+                    <input class="form-control" type="email" id="for-email" placeholder="email" name="email" required>
+                    <label for="for-email">Your E-mail</label>
+                   </div>
+                 </div>
+
+                 <div class="col-md-12 mt-4">
+                    <textarea name="message" id="message" class="form-control" rows="5" placeholder="Your Message"></textarea>
+                 </div>
+
+                  <div class="mt-4">
+                    <input class="btn my-btn col-12" type="submit" value="Send Message">
+                  </div>
+                 </div>
+               </form>
               </div>
             </div>
           </div>
